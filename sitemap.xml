@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 " 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+   <url>
+
+        <loc>https://www.asap-events.org/</loc>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>1.00</priority>
+
+    </url>
+
+
+   <url>
+
+        <loc>https://www.asap-events.org/o-nama</loc>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.85</priority>
+
+    </url>
+
+
+   <url>
+
+        <loc>https://www.asap-events.org/dogadjaji</loc>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.85</priority>
+
+    </url>
+
+
+   <url>
+
+        <loc>https://www.asap-events.org/izvodjaci</loc>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.85</priority>
+
+    </url>
+
+
+   <url>
+
+        <loc>https://www.asap-events.org/galerija</loc>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.85</priority>
+
+    </url>
+
+    <url>
+
+        <loc>https://www.asap-events.org/kontakt</loc>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.85</priority>
+
+    </url>
+
+</urlset>
