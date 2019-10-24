@@ -164,7 +164,7 @@
 														<div class="desc">
 															<h2><a title='Facebook event | ASAP presents Space Motion' href='https://www.facebook.com/events/2379876925585940/'> ASAP presents Space Motion</a></h2>
 															<p> U subotu, 19. oktobra, ASAP se vraća u Apolo! 🌌🎶 Naš prvi gost sezone je @space_motion_, novosadski DJ i producent koji preko 16 godina oduševljava svojim progressive, tech i afro house zvukom.</p>
-															<p><a href="events.php" class="btn btn-primary btn-outline" title='Redirekcija na stranicu Dogadjaju'>Svi događaji</a></p>
+															<p><a href="dogadjaji.php" class="btn btn-primary btn-outline" title='Redirekcija na stranicu Dogadjaju'>Svi događaji</a></p>
 															<p class='tooltip'> <a class="btn btn-primary btn-outline" href='https://www.facebook.com/events/2379876925585940/' title='Facebook event | ASAP presents Space Motion'>Pogledaj event</a>
 																<!-- <span class="tooltiptext">Karte se kupuju na ulazu </span> -->
 															</p>
