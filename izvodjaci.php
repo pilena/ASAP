@@ -79,7 +79,7 @@
 		<nav class="fh5co-nav" role="navigation">
 			<!-- <div class="top-menu"> -->
 			<?php
-			include "php/fixed/top-menu.php";
+			include "views/fixed/top-menu.php";
 			?>
 			<!-- </div> -->
 		</nav>
@@ -339,12 +339,12 @@
 
 
 		<?php
-		include "php/fixed/book.php";
+		include "views/fixed/book.php";
 		?>
 
 		<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
 			<?php
-			include "php/fixed/footer.php";
+			include "views/fixed/footer.php";
 			?>
 		</footer>
 	</div>
@@ -354,7 +354,7 @@
 	</div>
 
 	<?php
-	include "php/fixed/top-js-includes.php";
+	include "views/fixed/top-js-includes.php";
 	?>
 
 </body>
