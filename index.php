@@ -93,15 +93,15 @@
 			<!-- </div> -->
 		</nav>
 
-		<!-- <div id="boxes">
+		<div id="boxes">
 			<div id="dialog" class="window">
 				<div id="san">
-					<a href="#" title='ASAP presents Space Motion' class="close agree"><img src="images/events/error.png" width="25" style="float:right; margin-right: -25px; margin-top: -20px;"></a>
-					<img alt='ASAP presents Space Motion' id='Space' src="images/events/ASAP_event_plakat.jpg" width="450">
+					<a href="#" title='ASAP presents Andrew Meller' class="close agree"><img src="images/events/error.png" width="25" style="float:right; margin-right: -25px; margin-top: -20px;"></a>
+					<img alt='ASAP presents Andrew Meller' id='Space' src="images/events/andrew.jpg" width="450">
 				</div>
 			</div>
 			<div style="width: 2478px; font-size: 32pt; color:white; height: 1202px; display: none; opacity: 0.4;" id="mask"></div>
-		</div> -->
+		</div>
 
 
 		<section id="intro">
