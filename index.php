@@ -155,22 +155,19 @@
 						<aside id="fh5co-slider-wrwap">
 							<div class="flexslider">
 								<ul class="slides">
-									<li style="background-image: url(images/events/event.jpg) ;">
+									<li style="background-image: url(images/events/andrew.jpg) ;">
 										<div class="overlay-gradient"></div>
 										<div class="container-fluid">
 											<div class="row">
 												<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
 													<div class="slider-text-inner">
 														<div class="desc">
-															<h2><a title='Facebook event | ASAP presents Space Motion' href='https://www.facebook.com/events/2379876925585940/'> ASAP presents Space Motion</a></h2>
-															<p> U subotu, 19. oktobra, ASAP se vraća u Apolo! 🌌🎶 Naš prvi gost sezone je @space_motion_, novosadski DJ i producent koji preko 16 godina oduševljava svojim progressive, tech i afro house zvukom.</p>
+															<h2><a title='Facebook event | ASAP presents Andrew Meller' href='https://www.facebook.com/events/783768405401705/'> ASAP presents Andrew Meller</a></h2>
+															<p> Domaći DJ/producent @andrew.meller vraća se u Pančevo 21. decembra! 🤩💥🚀 Slušamo ga u dvorani Apolo uz gosta iz Beograda @fisherfilip, našeg rezidenta @djrescobar i mladu nadu @istina_izazov!</p>
 															<p><a href="dogadjaji.php" class="btn btn-primary btn-outline" title='Redirekcija na stranicu Dogadjaju'>Svi događaji</a></p>
-															<p class='tooltip'> <a class="btn btn-primary btn-outline" href='https://www.facebook.com/events/2379876925585940/' title='Facebook event | ASAP presents Space Motion'>Pogledaj event</a>
+															<p class='tooltip'> <a class="btn btn-primary btn-outline" href='https://www.facebook.com/events/783768405401705/' title='Facebook event |ASAP presents Andrew Meller'>Pogledaj event</a>
 																<!-- <span class="tooltiptext">Karte se kupuju na ulazu </span> -->
 															</p>
-
-
-
 														</div>
 													</div>
 												</div>
