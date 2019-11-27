@@ -671,9 +671,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-slider-wrwap .flexslider .slides li {
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: top center;
-  height: 600px !important;
+  height: 700px !important;
   position: relative;
 }
 #fh5co-slider-wrwap .flexslider .flex-control-nav {
@@ -1891,6 +1891,10 @@ textarea {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.js .animate-box1{
+  opacity: 1;
 }
 
 @media screen and (max-width: 480px) {
