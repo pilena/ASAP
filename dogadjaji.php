@@ -138,9 +138,20 @@
                         <div class="tab-content row justify-content-center animate-box fadeInUp animated-fast">
 
                             <!-- Schdule 2019 -->
+
                             <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
+
                                 <div class="row schedule-item " id='next-event'>
+                                    <div class="col-md-2"><time>21.12.2019. </br> 21:00</time></div>
+                                    <div class="col-md-10">
+
+                                        <h4> <a title='Facebook event | ASAP presents Andrew Meller — Apolo dvorana' href='https://www.facebook.com/events/783768405401705/'> ASAP presents Andrew Meller — Apolo dvorana </a></h4>
+                                        <p>Di-džejevi: Andrew Meller, DJ Filip Fisher, Rescobar, Aneri/ Vi-džej: Witness</p>
+                                    </div>
+                                </div>
+
+                                <div class="row schedule-item ">
                                     <div class="col-md-2"><time>19.10.2019. </br> 21:00</time></div>
                                     <div class="col-md-10">
 
