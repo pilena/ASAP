@@ -1,0 +1,13 @@
+#mod_rewrite pocinje ovde 
+
+RewriteEngine on 
+
+# nece prijaviti gresku ako slucajno budemo imali folder sa istim imenom kao linkovi
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# proverava fajl u direktorijumu sa .php ekstenzijom
+
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+
+RewriteRule ^(.*)$ $1.php [NC,L] 
