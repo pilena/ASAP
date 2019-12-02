@@ -9,15 +9,15 @@
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-							<li><a title='Početna stranica' href="index.php">Početna</a></li>
-							<li><a title='Stranica o nama' href="o-nama.php">O nama</a></li>
-							<li><a title='Stranica o dogadjajima'  href="dogadjaji.php">Događaji</a></li>
+							<li><a title='Početna stranica' href="index">Početna</a></li>
+							<li><a title='Stranica o nama' href="o-nama">O nama</a></li>
+							<li><a title='Stranica o dogadjajima'  href="dogadjaji">Događaji</a></li>
 							<li>
-								<a title='Stranica o izvođačima' href="izvodjaci.php">Izvođači</a>
+								<a title='Stranica o izvođačima' href="izvodjaci">Izvođači</a>
 							</li>
 							<li><a title='Redirekcija na MixCloud' target='_blank' href="https://www.mixcloud.com/asappancevo/">Muzika</a></li>
-							<li><a title='Galerija slika' href="galerija.php">Galerija</a></li>
-							<li><a  title='Kontakt stranica' href="kontakt.php">Kontakt</a></li>
+							<li><a title='Galerija slika' href="galerija">Galerija</a></li>
+							<li><a  title='Kontakt stranica' href="kontakt">Kontakt</a></li>
 						</ul>
 					</div>
 				</div>
