@@ -42,40 +42,6 @@
 
 	};
 
-	// ispisArt();
-
-	// function ispisArt(){
-	// 	$.ajax({
-	// 		url: "data/artists.json",
-	// 		method: "GET",
-	// 		success: function(art){
-	// 			Art(art);
-	// 		}
-	// 	});
-	// }
-
-	// function Art(art){
-	// 	var ispis ="";
-	// 	art.forEach(p=>{
-	// 		 ispis = `<div class="col-md-4">
-	// 		<div class="fh5co-blog animate-box">
-	// 			<a href="#" class="blog-bg" style="background-image: url(images/gallery_1.jpeg);"></a>
-	// 			<div class="blog-text">
-	// 				<span class="posted_on">Feb. 15th 2016</span>
-	// 				<h3><a href="#">${p.ime}</a></h3>
-	// 				<p>${p.bio}</p>
-	// 				<ul class="stuff">
-	// 					<li><i class="icon-heart2"></i>1.2K</li>
-	// 					<li><i class="icon-eye2"></i>2K</li>
-
-	// 				</ul>
-	// 			</div> 
-	// 		</div>
-	// 	</div>`;
-	// 	});
-	// 	$("#art").html(ispis);
-	// }
-
 
 	var offcanvasMenu = function () {
 
@@ -359,6 +325,7 @@
 		fullHeight();
 		parallax();
 		DateTimePickerFunc();
+		// showArtists();
 
 		$('.fh5co-bg-img').each(function () {
 			$(this).css('width', '100%');
@@ -366,45 +333,112 @@
 		// zoomFunc();
 	});
 
+	// Dynamically writting all artists 
+
+	// function showArtists() {
+	// 	$.ajax({
+	// 		url: "data/artists.json",
+	// 		method: "GET",
+	// 		dataType: "json",
+	// 		success: function (art) {
+	// 			writeArtist(art);
+	// 		},
+	// 		error: function (err) {
+	// 			console.log(err);
+	// 		}
+	// 	});
+	// }
+
+	// function writeArtist(art) {
+	// 	var ispis = "";
+
+	// 	art.forEach(a => {
+	// 		ispis += `	<div class="col-md-4">
+	// 		<div class="fh5co-blog animate-box1">
+	// 			<a href="#" title='${a.title}' class="blog-bg" style="background-image: url(${a.image.url});"></a>
+	// 			<div class="blog-text">
+	// 				<span class="posted_on">${a.hesh}</span>
+	// 				<h3><a title='${a.title}' href="#">${a.title}</a></h3>
+	// 				<div class='expand'>
+	// 					<p>${a.details}</p>
+	// 				</div>
+
+	// 				<ul class="stuff">
+	// 					${printSocials(a.socials)}
+						
+	// 				</ul>
+	// 			</div>
+	// 		</div>
+	// 	</div>`;
+	// 	});
+
+	// 	document.getElementById("art").innerHTML = ispis;
+	// }
+
+	// function printSocials(socials) {
+	// 	var ispis = "";
+
+	// 	socials.forEach(element=>{
+	// 		// for(let i=1;)
+	// 		if(element.facebook != ""){
+	// 			ispis += `<li><a title='Facebook | ${element.title}' href="${element.facebook}"><i class="icon-facebook2"></i></a></li>`
+	// 		} else if(element.instagram != ""){
+	// 			ispis += `<li><a title='Instagram | ${element}' href="${element.instagram}"><i class="icon-instagram2"></i></a></li>`;
+	// 		} else if (element.mixcloud != ""){
+				
+	// 		}
+			
+	// 	});
+
+	// 	return ispis;
+	// }
+
 	// Initiate the wowjs animation library
 	// new WOW().init();
 
 	// Initialize Venobox
 	$('.venobox').venobox({
-	  bgcolor: '',
-	  overlayColor: 'rgba(6, 12, 34, 0.85)',
-	  closeBackground: '',
-	  closeColor: '#fff'
+		bgcolor: '',
+		overlayColor: 'rgba(6, 12, 34, 0.85)',
+		closeBackground: '',
+		closeColor: '#fff'
+	});
+
+}());
+
+$(document).ready(function () {
+
+	// Pop-up on load when next event is up
+	var id = '#dialog';
+	var maskHeight = $(document).height();
+	var maskWidth = $(window).width();
+	$('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+	$('#mask').fadeIn(500);
+	$('#mask').fadeTo("slow", 0.9);
+	var winH = $(window).height();
+	var winW = $(window).width();
+	$(id).css('top', winH / 2 - $(id).height() / 2);
+	$(id).css('left', winW / 2 - $(id).width() / 2);
+	$(id).fadeIn(2000);
+	$('.window .close').click(function (e) {
+		e.preventDefault();
+		$('#mask').hide();
+		$('.window').hide();
+	});
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});
+
+	// Local Storage page counter for ASAP video
+
+	$(document).ready(function () {
+		if (localStorage.getItem("pageloadcount")) {
+			$("#player_uid_970223841_1").hide();
+		}
+		localStorage.setItem("pageloadcount", "1");
 	});
 
 
 
-
-
-
-
-}());
-
-$(document).ready(function() { 
-	var id = '#dialog';
-	var maskHeight = $(document).height();
-	var maskWidth = $(window).width();
-	$('#mask').css({'width':maskWidth,'height':maskHeight}); 
-	$('#mask').fadeIn(500); 
-	$('#mask').fadeTo("slow",0.9); 
-		  var winH = $(window).height();
-	var winW = $(window).width();
-		  $(id).css('top',  winH/2-$(id).height()/2);
-	$(id).css('left', winW/2-$(id).width()/2);
-	   $(id).fadeIn(2000);  
-	   $('.window .close').click(function (e) {
-	e.preventDefault();
-	$('#mask').hide();
-	$('.window').hide();
-	   });  
-	   $('#mask').click(function () {
-	$(this).hide();
-	$('.window').hide();
-   });  
-   
-  });
+});

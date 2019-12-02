@@ -9,7 +9,7 @@
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-							<li><a title='Početna stranica' href="index">Početna</a></li>
+							<li><a title='Početna stranica' href="pocetna">Početna</a></li>
 							<li><a title='Stranica o nama' href="o-nama">O nama</a></li>
 							<li><a title='Stranica o dogadjajima'  href="dogadjaji">Događaji</a></li>
 							<li>
