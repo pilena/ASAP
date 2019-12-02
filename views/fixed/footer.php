@@ -27,9 +27,9 @@
         <div class="col-md-4 col-md-push-1 fh5co-widget" id='sponzori'>
             <h4>Sponzori</h4>
             <ul class="fh5co-footer-links">
-                <li><img src='images\sponzori-logo\republika_bela_mala.png' alt='Republika Food Logo'></li>
-                <li><img src='images\sponzori-logo\dom_bela_mala.png' alt='Dom Omladine Logo'></li>
-                <li><img src='images\sponzori-logo\apolo_mala.png' alt='Apolo Logo'></li>
+                <li> <a href='https://www.republikafud.rs/' title='Republika Fud'><img src='images\sponzori-logo\republika_bela_mala.png' alt='Republika Food Logo'></a></li>
+                <li> <a href='https://domomladinepancevo.rs/' title='Dom omladine Pančevo'><img src='images\sponzori-logo\dom_bela_mala.png' alt='Dom Omladine Logo'></a></li>
+                <li> <img src='images\sponzori-logo\apolo_mala.png' alt='Apolo Logo'></li>
             </ul>
         </div>
 
