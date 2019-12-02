@@ -156,7 +156,7 @@
                                     <div class="col-md-10">
 
                                         <h4> <a title='Facebook event | ASAP presents Space Motion — Apolo dvorana' href='https://www.facebook.com/events/2379876925585940/'> ASAP presents Space Motion — Apolo dvorana </a></h4>
-                                        <p>Di-džejevi: Space Motion, Dymo, Bukazic / Vi-džej: Witness</p>
+                                        <p>Di-džejevi: Space Motion, Dymo, Sugarave, Bukazic / Vi-džej: Witness</p>
                                     </div>
                                 </div>
 
