@@ -2437,8 +2437,9 @@ textarea {
 }
 
 #Space {
-  width: 350px;
-  height: 470px;
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
 }
 
 .agree:hover{
