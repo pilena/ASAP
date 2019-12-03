@@ -7,10 +7,10 @@
         <div class="col-md-2 col-md-push-1 fh5co-widget">
             <h4>Linkovi</h4>
             <ul class="fh5co-footer-links">
-                <li><a title='Početna stranica' href="index.php">Početna</a></li>
-                <li><a title='Stranica o nama' href="about.php">O nama</a></li>
-                <li><a title='Stranica o dogadjajima' href="events.php">Događaji</a></li>
-                <li><a title='Stranica o izvođačima' href="artists.php">Izvođači</a></li>
+                <li><a title='Početna stranica' href="index">Početna</a></li>
+                <li><a title='Stranica o nama' href="o-nama">O nama</a></li>
+                <li><a title='Stranica o dogadjajima' href="dogadjaji">Događaji</a></li>
+                <li><a title='Stranica o izvođačima' href="izvodjaci">Izvođači</a></li>
 
             </ul>
         </div>
