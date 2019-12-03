@@ -1,7 +1,7 @@
 <div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center logo-wrap">
-						<div id="fh5co-logo"> <a title='ASAP' href='index.php'> <img src='images/logo/logo-glic.png' alt='ASAP logo'></a> 
+						<div id="fh5co-logo"> <a title='ASAP' href='index'> <img src='images/logo/logo-glic.png' alt='ASAP logo'></a> 
 						<h1> All Star Alience  </h1>
 					</div>
 						
@@ -9,7 +9,7 @@
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-							<li><a title='Početna stranica' href="pocetna">Početna</a></li>
+							<li><a title='Početna stranica' href="index">Početna</a></li>
 							<li><a title='Stranica o nama' href="o-nama">O nama</a></li>
 							<li><a title='Stranica o dogadjajima'  href="dogadjaji">Događaji</a></li>
 							<li>
