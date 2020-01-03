@@ -93,7 +93,7 @@
 			<!-- </div> -->
 		</nav>
 
-		<div id="boxes">
+		<!-- <div id="boxes">
 			<div id="dialog" class="window">
 				<div id="san">
 					<a href="#" title='ASAP presents Andrew Meller' class="close agree"><img src="images/events/error.png" width="25" style="float:right; margin-right: -25px; margin-top: -20px;"></a>
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 			<div style="width: 100%; font-size: 32pt; color:white; height: auto; display: none; opacity: 0.4;" id="mask"></div>
-		</div>
+		</div> -->
 
 
 		<section id="intro">
@@ -148,7 +148,7 @@
 				<div class="row">
 					<div class="col-md-6 animate-box">
 						<div class="fh5co-heading">
-							<h2>Naš sledeći event </h2>
+							<h2>Naš prethodni event </h2>
 						</div>
 					</div>
 					<div class="col-md-6 col-md-1 animate-box">
