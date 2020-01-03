@@ -100,7 +100,7 @@
 					<img alt='ASAP presents Andrew Meller' id='Space' src="images/events/Andrew_Meller_plakat.jpg" width="450">
 				</div>
 			</div>
-			<div style="width: 2478px; font-size: 32pt; color:white; height: 1202px; display: none; opacity: 0.4;" id="mask"></div>
+			<div style="width: 100%; font-size: 32pt; color:white; height: auto; display: none; opacity: 0.4;" id="mask"></div>
 		</div>
 
 
