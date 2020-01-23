@@ -93,15 +93,15 @@
 			<!-- </div> -->
 		</nav>
 
-		<!-- <div id="boxes">
+		<div id="boxes">
 			<div id="dialog" class="window">
 				<div id="san">
-					<a href="#" title='ASAP presents Andrew Meller' class="close agree"><img src="images/events/error.png" width="25" style="float:right; margin-right: -25px; margin-top: -20px;"></a>
-					<img alt='ASAP presents Andrew Meller' id='Space' src="images/events/Andrew_Meller_plakat.jpg" width="450">
+					<a href="#" title='ASAP presents TKNO' class="close agree"><img src="images/events/error.png" width="25" style="float:right; margin-right: -25px; margin-top: -20px;"></a>
+					<img alt='ASAP presents Andrew Meller' id='Space' src="images/events/TKNO_plakat.jpg" width="450">
 				</div>
 			</div>
 			<div style="width: 100%; font-size: 32pt; color:white; height: auto; display: none; opacity: 0.4;" id="mask"></div>
-		</div> -->
+		</div>
 
 
 		<section id="intro">
@@ -148,24 +148,29 @@
 				<div class="row">
 					<div class="col-md-6 animate-box">
 						<div class="fh5co-heading">
-							<h2>Naš prethodni event </h2>
+							<h2>Naš sledeći event </h2>
 						</div>
 					</div>
 					<div class="col-md-6 col-md-1 animate-box">
 						<aside id="fh5co-slider-wrwap">
 							<div class="flexslider">
 								<ul class="slides">
-									<li style="background-image: url(images/events/andrew.jpg) ;">
+									<li style="background-image: url(images/events/TKNO_event.jpg) ;">
 										<div class="overlay-gradient"></div>
 										<div class="container-fluid">
 											<div class="row">
 												<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
 													<div class="slider-text-inner">
 														<div class="desc">
-															<h2><a title='Facebook event | ASAP presents Andrew Meller' href='https://www.facebook.com/events/783768405401705/'> ASAP presents Andrew Meller</a></h2>
-															<p> Domaći DJ/producent @andrew.meller vraća se u Pančevo 21. decembra! 🤩💥🚀 Slušamo ga u dvorani Apolo uz gosta iz Beograda @fisherfilip, našeg rezidenta @djrescobar i mladu nadu @istina_izazov!</p>
+															<h2><a title='Facebook event | ASAP presents TKNO' href='https://www.facebook.com/events/480093562627779/'> ASAP presents TKNO</a></h2>
+															<p> NASTUPAJU: TKNO, Miloš Vujović, Stefan Jović, VJ Witness </br> </br> KARTE:
+21.00 - 22.00 • ulaz je besplatan </br>
+22.00 - 00.00 • 300 rsd </br>
+00.00 - 03.00 • 400 rsd </br>
+
+VIP KARTE: 500 rsd (omogućava pristup spratu Apola)</p>
 															<p><a href="dogadjaji" class="btn btn-primary btn-outline" title='Redirekcija na stranicu Dogadjaju'>Svi događaji</a></p>
-															<p class='tooltip'> <a class="btn btn-primary btn-outline" href='https://www.facebook.com/events/783768405401705/' title='Facebook event |ASAP presents Andrew Meller'>Pogledaj event</a>
+															<p class='tooltip'> <a class="btn btn-primary btn-outline" href='https://www.facebook.com/events/480093562627779/' title='Facebook event |ASAP presents TKNO'>Pogledaj event</a>
 																<!-- <span class="tooltiptext">Karte se kupuju na ulazu </span> -->
 															</p>
 														</div>
